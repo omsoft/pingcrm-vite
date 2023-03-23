@@ -40,21 +40,19 @@ Visit [the live demo](https://pingcrm-vite.herokuapp.com/). Login with:
 
 ## Installation 💿
 
-Clone the repo locally:
-
+Clone project
 ```
-git clone https://github.com/ElMassimo/pingcrm-vite.git
+git clone https://github.com/omsoft/pingcrm-vite.git
 ```
 
-Setup (install dependencies, create and seed database):
-
+Setup dependencies
 ```
 cd pingcrm-vite
 bin/setup
+yarn install
 ```
 
 Start it:
-
 ```
 foreman start
 ```
@@ -79,6 +77,7 @@ rails test:system
 - Ruby 3.1
 - Ruby on Rails 7
 - PostgreSQL
+- Install libvips on Ubuntu: `sudo apt install libvips`
 
 
 ## Credits
@@ -86,3 +85,4 @@ rails test:system
 * Original work by Jonathan Reinink (@reinink) and contributors
 * Port to Ruby on Rails by Georg Ledermann (@ledermann)
 * Port from Webpacker to Vite Rails (@ElMassimo)
+* Additional features (@mattiaorfano)
